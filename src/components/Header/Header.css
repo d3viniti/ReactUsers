@@ -1,0 +1,36 @@
+.header-container{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 3px solid cornflowerblue;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+button{
+    color: white;
+    border:none;
+    background-color:cornflowerblue;
+    padding:8px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.search-container input{
+    /* border: none; */
+    /* width: 50%; */
+    /* height: 25px; */
+    font-size: 1.1em;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid cornflowerblue;
+    padding: 5px;
+}
